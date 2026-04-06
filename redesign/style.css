@@ -1,0 +1,433 @@
+body {
+  color: #2c2b33;
+}
+
+.pattern-bg {
+  background-image: url("../site/img/pattern.png");
+}
+
+.hero-clean {
+  padding: 5.6rem 0 4.4rem;
+}
+
+.hero-centered {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-logo {
+  margin: 0 auto 1.6rem;
+  max-width: 56rem;
+  width: min(100%, 56rem);
+}
+
+.hero-clean .summary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 0 auto;
+  max-width: none;
+  white-space: nowrap;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+
+.hero-primary-cta,
+.hero-secondary-cta {
+  font-size: 1.5em;
+  min-width: 20rem;
+}
+
+.quiet-section {
+  padding: 4rem 0;
+}
+
+.quiet-section h2,
+.sponsors h2 {
+  margin-bottom: 2.2rem;
+}
+
+.why-overview {
+  padding-top: 2rem;
+}
+
+.quiet-card {
+  background: #fff;
+  border: 1px solid #ece7f5;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(67, 54, 103, 0.04);
+  height: 100%;
+  padding: 2.2rem;
+}
+
+.quiet-card h3 {
+  margin-top: 0;
+}
+
+.quiet-card p,
+.practice-section p,
+.start-list li,
+.support-strip p,
+.sponsors p {
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+
+.pathways-clean {
+  background: #faf8fd;
+  border-top: 1px solid #ece7f5;
+  border-bottom: 1px solid #ece7f5;
+}
+
+.pathways-clean .container > h2,
+.pathways-clean .container > h3 {
+  display: block;
+  margin: 0 auto 3.2rem;
+  max-width: 110rem;
+  text-align: center !important;
+}
+
+.pathway-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.pathway-tab {
+  background: transparent;
+  border: 1px solid #e2dbee;
+  border-radius: 999px;
+  color: inherit;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  min-height: 0;
+  padding: 1rem 1.8rem;
+  text-align: center;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.pathway-tab:hover,
+.pathway-tab:focus {
+  border-color: #9d88ca;
+  box-shadow: 0 10px 24px rgba(67, 54, 103, 0.08);
+  outline: none;
+}
+
+.pathway-tab.is-active {
+  background: #f3eefb;
+  border-color: #8f79c0;
+  box-shadow: 0 8px 18px rgba(67, 54, 103, 0.1);
+}
+
+.pathway-tab-static {
+  background: #fbf9fe;
+  border-style: dashed;
+  color: #7d7394;
+  cursor: default;
+  opacity: 0.9;
+}
+
+.pathway-panel {
+  background: #fff;
+  border: 1px solid #e8e2f2;
+  border-radius: 14px;
+  padding: 2.8rem 2.4rem;
+}
+
+.pathway-message {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 0 2.2rem;
+  text-align: center;
+}
+
+.pathway-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.pathway-link {
+  background: #fff;
+  border: 1px solid #e8e2f2;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(67, 54, 103, 0.04);
+  color: #5d4f85;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1rem 1.4rem;
+  text-decoration: none;
+}
+
+.pathway-link:hover,
+.pathway-link:focus {
+  border-color: #a995d2;
+  color: #4e4272;
+  box-shadow: 0 8px 18px rgba(67, 54, 103, 0.08);
+  text-decoration: none;
+}
+
+.try-wrapper {
+  padding: 3.2rem 0;
+}
+
+.static-try {
+  cursor: default;
+}
+
+.mock-console {
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  min-height: 0;
+  padding: 0;
+}
+
+.mock-console pre {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  font-size: 4rem;
+  margin: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+.try-guide {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 0 0 1rem;
+}
+
+.try .span6 h4,
+.try-guide p,
+.try-guide span {
+  color: #fff;
+  font-size: 1.9rem;
+  line-height: 1.5;
+}
+
+.try .span6 h4 {
+  margin-bottom: 1.6rem;
+}
+
+.try-guide h2 {
+  margin-top: 0;
+}
+
+.try-guide p {
+  margin-bottom: 1.4rem;
+}
+
+.try-guide code {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f7f2ff;
+}
+
+.try-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.try-insert {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  text-decoration: none;
+}
+
+.try-insert:hover,
+.try-insert:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.testimonials {
+  background: #fff;
+}
+
+.practice-section .row > div {
+  margin-bottom: 3rem;
+}
+
+.audience-pane {
+  display: none;
+}
+
+.audience-pane.is-active {
+  display: block;
+}
+
+.practice-section h3 {
+  margin-top: 0;
+}
+
+.practice-section .btn-xs {
+  margin-top: 0.8rem;
+}
+
+.practice-section pre {
+  margin-bottom: 1.4rem;
+}
+
+.start-section {
+  background: #faf8fd;
+  border-top: 1px solid #ece7f5;
+  border-bottom: 1px solid #ece7f5;
+}
+
+.start-card {
+  margin: 0 auto;
+  max-width: 64rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.start-message {
+  font-size: 2.2rem;
+  line-height: 1.55;
+  margin-bottom: 2rem;
+}
+
+.secondary-section {
+  padding-bottom: 3rem;
+}
+
+.secondary-section h2 {
+  margin-bottom: 2.2rem;
+}
+
+.secondary-section .glider-contain {
+  padding: 0 1rem;
+}
+
+.secondary-section .glider-slide,
+.secondary-section .video-slide {
+  max-width: 260px;
+  min-width: 260px !important;
+  width: 260px !important;
+}
+
+.secondary-section .thumbnail {
+  margin-bottom: 0;
+}
+
+.sponsors {
+  padding: 3rem 0 2rem;
+}
+
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 0;
+}
+
+.sponsors p {
+  margin-bottom: 1rem;
+}
+
+.support-strip {
+  padding: 3rem 0 2.4rem;
+}
+
+.support-strip h3 {
+  margin-top: 0;
+}
+
+.testimonials .glider-contain {
+  padding: 0 1rem;
+}
+
+.testimonials .glider-slide,
+.testimonials .testimonial-box {
+  max-width: 300px;
+  min-width: 300px !important;
+  width: 300px !important;
+}
+
+.testimonials .thumbnail {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .hero-clean .summary {
+    font-size: 2.1rem;
+    white-space: normal;
+  }
+
+  .pathway-tabs {
+    justify-content: stretch;
+  }
+
+  .try-guide {
+    padding: 2rem 0 0;
+  }
+
+  .support-strip .col-md-6 + .col-md-6 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .quiet-section,
+  .try-wrapper {
+    padding: 3.2rem 0;
+  }
+
+  .hero-clean {
+    padding: 3.8rem 0 3rem;
+  }
+
+  .hero-logo {
+    max-width: 34rem;
+    width: min(100%, 34rem);
+  }
+
+  .hero-clean .summary {
+    font-size: 2rem;
+    white-space: normal;
+  }
+
+  .quiet-card p,
+  .practice-section p,
+  .start-list li,
+  .support-strip p,
+  .sponsors p,
+  .try-guide li {
+    font-size: 1.7rem;
+  }
+
+  .pathway-tab {
+    width: 100%;
+  }
+
+  .pathway-message {
+    font-size: 1.8rem;
+  }
+
+  .hero-primary-cta {
+    width: 100%;
+  }
+
+  .hero-secondary-cta {
+    width: 100%;
+  }
+}
